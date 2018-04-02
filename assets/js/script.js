@@ -1,6 +1,6 @@
 const regex = new RegExp("http(s)?(:\/\/)(www.)?(clyp.it)\/(.*)", "i");
 const api = "https://api.clyp.it/"
-const proxy = "https://cors-anywhere.herokuapp.com/";
+const proxy = "https://cors-anywhere.herokuapp.com/";  // sorry clyp
 
 let mp3Url;
 let oggUrl;
@@ -20,7 +20,7 @@ $("#dlForm").submit(function (e) {
 
     if (regex.test($("#urlField").val())) {
         $.ajax({
-            url: proxy + api + id, // sorry clyp
+            url: proxy + api + id,
             dataType: "json",
             success: (res) => {
                 mp3Url = res.SecureMp3Url;
