@@ -10,6 +10,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/js/download.js"></script>
     <script defer src="assets/js/script.js"></script>
+    <script>
+    
+    var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+
+    if (iOS) {
+        window.location = "https://google.com/"
+    }
+    
+    </script>
 </head>
 
 <body>
