@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>clypdl</title>
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/download.js"></script>
+    <script defer src="assets/js/script.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="name">clypdl</h1>
+        <form id="dlForm">
+            <input type="url" maxlength="28" placeholder="url" autocomplete="off" id="urlField">
+            <input type="submit" value="submit" id="submitButton" class="button">
+        </form>
+        <div id="downloads">
+            <div id="downloadMp3" class="button dlButton hidden">
+                <p class="dlButtonText">mp3</p>
+            </div>
+            <div id="downloadOgg" class="button dlButton hidden">
+                <p class="dlButtonText">ogg</p>
+            </div>
+        </div>
+        <div id="error" class="hidden">
+            <p id="errorText"></p>
+        </div>
+    </div>
+
+</body>
+
+</html>

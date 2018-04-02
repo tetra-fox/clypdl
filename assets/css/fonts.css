@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "futura-pt";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/futura-pt-book.eot") format("embedded-opentype"),
+    url("../fonts/futura-pt-book.woff2") format("woff2"),
+    url("../fonts/futura-pt-book.woff") format("woff"),
+    url("../fonts/futura-pt-book.ttf") format("truetype"),
+    url("../fonts/futura-pt-book.svg") format("svg")
+}
+
+@font-face {
+    font-family: "futura-pt";
+    font-style: italic;
+    font-weight: normal;
+    src: url("../fonts/futura-pt-book-oblique.eot") format("embedded-opentype"),
+    url("../fonts/futura-pt-book-oblique.woff2") format("woff2"),
+    url("../fonts/futura-pt-book-oblique.woff") format("woff"),
+    url("../fonts/futura-pt-book-oblique.ttf") format("truetype"),
+    url("../fonts/futura-pt-book-oblique.svg") format("svg")
+}
+
+@font-face {
+    font-family: "futura-pt";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/futura-pt-medium.eot") format("embedded-opentype"),
+    url("../fonts/futura-pt-medium.woff2") format("woff2"),
+    url("../fonts/futura-pt-medium.woff") format("woff"),
+    url("../fonts/futura-pt-medium.ttf") format("truetype"),
+    url("../fonts/futura-pt-medium.svg") format("svg")
+}

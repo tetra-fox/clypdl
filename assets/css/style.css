@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "futura-pt", Arial, Helvetica, sans-serif;
+    background: #f3f4f4;
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    background: #fdfffc;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .05), 0 4px 4px rgba(0, 0, 0, .1);
+}
+
+#name {
+    width: fit-content;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    text-align: center;
+    color: #5f6d7a;
+    border-bottom: 4px solid #e4e5e5;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input {
+    font-family: "futura-pt", Arial, Helvetica, sans-serif;
+}
+
+input[type="url"] {
+    font-size: 32px;
+    width: 400px;
+    height: 80px;
+    margin-right: 20px;
+    padding: 0 20px 0 20px;
+    color: #5f6d7a;
+    border: 2px solid #e4e5e5;
+    border-radius: 8px;
+    outline: none;
+    background: #fdfffc;
+    flex-grow: 1;
+}
+
+.button {
+    font-size: 32px;
+    width: 200px;
+    height: 80px;
+    cursor: pointer;
+    color: #fdfffc;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+input[type="submit"] {
+    transition: all .2s ease;
+    background: #ffbc00;
+}
+
+input[type="submit"]:hover {
+    background: #f7b701;
+}
+
+#downloads {
+    display: flex;
+}
+
+.dlButton {
+    line-height: 80px;
+    position: relative;
+    overflow: hidden;
+    transition: all .2s ease;
+    text-align: center;
+    text-decoration: none;
+    color: #fdfffc;
+    border: none;
+    background: #1689ff;
+    flex-grow: 1;
+}
+
+.dlButton:hover {
+    background: #007dfd;
+}
+
+#downloadMp3 {
+    margin-right: 20px;
+}
+
+#error {
+    font-size: 32px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 80px;
+    padding: 0 20px 0 20px;
+    transition: all .2s ease;
+    text-align: center;
+    color: #fdfffc;
+    border-radius: 8px;
+    background: #e2665a;
+}
+
+.hidden {
+    height: 0 !important;
+}
+
+#errorText,
+.dlButtonText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*
+    colors
+
+    main: #3DBEB3
+    button: #FFBC00
+    button2: #1689FF;
+    gray: #E4E5E5
+    error: #E2665A
+*/
